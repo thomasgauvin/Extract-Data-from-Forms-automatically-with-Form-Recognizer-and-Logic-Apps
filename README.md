@@ -1,4 +1,4 @@
-# Extract data from forms using Azure Form Recognizer and Azure Logic Apps
+# Extract data from forms automatically using Azure Form Recognizer and Azure Logic Apps
 
 This project demonstrates how to create a process that automatically extracts information from forms using [Azure Form Recognizer](https://azure.microsoft.com/en-us/services/form-recognizer/) and [Azure Logic Apps](https://azure.microsoft.com/en-us/services/logic-apps/). 
 
