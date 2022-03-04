@@ -15,7 +15,10 @@ This project demonstrates how to create a process that automatically extracts in
 
 1. **Create Sharepoint Site**
 2. **Deploy Azure Resources**
-    Deploy the required resources 
+    
+    [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fthomasgauvin%2FExtract-Data-from-Forms-automatically-with-Logic-Apps-and-Form-Recognizer%2Fmaster%2FARM%2520Template%2Ftemplate.json)
+     
+    Step-by-step process:
     1. Create a Logic App
     2. Create a Form Recognizer resource. Note that we will opt for v2.1 of the Form Recognizer as it is the latest General Availability and the Logic App connector we will use has been built for v2.1. If you plan on using a custom model (as I am doing here), follow the [steps documented in the Microsoft Docs](https://docs.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/quickstarts/try-sample-label-tool)
     3. Create a Storage Account. Within the Storage Account, create 2 containers, one for training documents to train the Form Recognizer Custom Model (ex: trainingdocuments) and another container for the export from Logic App (ex: exportedresults)
