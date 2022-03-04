@@ -24,7 +24,7 @@ This project demonstrates how to create a process that automatically extracts in
     1. Create a Logic App
     2. Create a Form Recognizer resource. Note that we will opt for v2.1 of the Form Recognizer as it is the latest General Availability and the Logic App connector we will use has been built for v2.1. If you plan on using a custom model (as I am doing here), follow the [steps documented in the Microsoft Docs](https://docs.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/quickstarts/try-sample-label-tool)
     3. Create a Storage Account. Within the Storage Account, create 2 containers, one for training documents to train the Form Recognizer Custom Model (ex: trainingdocuments) and another container for the export from Logic App (ex: exportedresults)
-3. **(If you are planning to use a Form Recognizer custom model) Train your custom model using at least 5 documents**
+3. **(If you are planning to use a Form Recognizer custom model) Train your custom model using at least 5 documents** using the [FOTT tool](https://fott-2-1.azurewebsites.net/)
 4. **Configure your Logic App**
     1. Select the Sharepoint connector `When a file is created in a folder`. 
         1. Configure your Sharepoint connection by logging in
