@@ -21,10 +21,6 @@
         "accounts_contoso_fr_extraction_process_name": {
             "defaultValue": "contoso-fr-extraction-process",
             "type": "String"
-        },
-        "connections_sharepointonline_externalid": {
-            "defaultValue": "/subscriptions/c149b512-8770-43bb-9773-d871b33a8181/resourceGroups/contoso-fr-extraction-process/providers/Microsoft.Web/connections/sharepointonline",
-            "type": "String"
         }
     },
     "variables": {},
@@ -49,6 +45,24 @@
                     "ipRules": []
                 },
                 "publicNetworkAccess": "Enabled"
+            }
+        },
+        {
+            "type": "Microsoft.Logic/workflows",
+            "apiVersion": "2017-07-01",
+            "name": "[parameters('workflows_contoso_fr_extraction_process_name')]",
+            "location": "eastus",
+            "properties": {
+                "state": "Enabled",
+                "definition": {
+                    "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+                    "contentVersion": "1.0.0.0",
+                    "parameters": {},
+                    "triggers": {},
+                    "actions": {},
+                    "outputs": {}
+                },
+                "parameters": {}
             }
         },
         {
@@ -105,8 +119,8 @@
                     }
                 ],
                 "customParameterValues": {},
-                "createdTime": "2022-03-04T02:02:01.1081731Z",
-                "changedTime": "2022-03-04T02:02:01.2019643Z",
+                "createdTime": "2022-03-04T02:37:57.3870642Z",
+                "changedTime": "2022-03-04T02:37:57.4339132Z",
                 "api": {
                     "name": "[parameters('connections_azureblob_name')]",
                     "displayName": "Azure Blob Storage",
@@ -141,8 +155,8 @@
                 "nonSecretParameterValues": {
                     "siteUrl": "https://contoso-fr-extraction-process.cognitiveservices.azure.com/"
                 },
-                "createdTime": "2022-03-04T02:12:37.5773644Z",
-                "changedTime": "2022-03-04T02:12:37.6554917Z",
+                "createdTime": "2022-03-04T02:38:51.8817813Z",
+                "changedTime": "2022-03-04T02:38:51.9598546Z",
                 "api": {
                     "name": "[parameters('connections_formrecognizer_name')]",
                     "displayName": "Form Recognizer",
@@ -234,128 +248,6 @@
             "properties": {
                 "cors": {
                     "corsRules": []
-                }
-            }
-        },
-        {
-            "type": "Microsoft.Logic/workflows",
-            "apiVersion": "2017-07-01",
-            "name": "[parameters('workflows_contoso_fr_extraction_process_name')]",
-            "location": "eastus",
-            "dependsOn": [
-                "[resourceId('Microsoft.Web/connections', parameters('connections_azureblob_name'))]",
-                "[resourceId('Microsoft.Web/connections', parameters('connections_formrecognizer_name'))]"
-            ],
-            "properties": {
-                "state": "Enabled",
-                "definition": {
-                    "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
-                    "contentVersion": "1.0.0.0",
-                    "parameters": {
-                        "$connections": {
-                            "defaultValue": {},
-                            "type": "Object"
-                        }
-                    },
-                    "triggers": {
-                        "When_a_file_is_created_in_a_folder": {
-                            "recurrence": {
-                                "frequency": "Minute",
-                                "interval": 1
-                            },
-                            "evaluatedRecurrence": {
-                                "frequency": "Minute",
-                                "interval": 1
-                            },
-                            "metadata": {
-                                "%252fShared%2bDocuments%252fUploaded%2bForms%2bto%2bExtract": "/Shared Documents/Uploaded Forms to Extract"
-                            },
-                            "type": "ApiConnection",
-                            "inputs": {
-                                "host": {
-                                    "connection": {
-                                        "name": "@parameters('$connections')['sharepointonline']['connectionId']"
-                                    }
-                                },
-                                "method": "get",
-                                "path": "/datasets/@{encodeURIComponent(encodeURIComponent('https://crm852144.sharepoint.com/sites/DemoTeamSite'))}/triggers/onnewfile",
-                                "queries": {
-                                    "folderId": "%252fShared%2bDocuments%252fUploaded%2bForms%2bto%2bExtract",
-                                    "inferContentType": true,
-                                    "queryParametersSingleEncoded": true
-                                }
-                            }
-                        }
-                    },
-                    "actions": {
-                        "Analyze_Layout": {
-                            "runAfter": {},
-                            "type": "ApiConnection",
-                            "inputs": {
-                                "body": "@triggerBody()",
-                                "host": {
-                                    "connection": {
-                                        "name": "@parameters('$connections')['formrecognizer']['connectionId']"
-                                    }
-                                },
-                                "method": "post",
-                                "path": "/v2.1/layout/analyze"
-                            }
-                        },
-                        "Create_blob_(V2)": {
-                            "runAfter": {
-                                "Analyze_Layout": [
-                                    "Succeeded"
-                                ]
-                            },
-                            "type": "ApiConnection",
-                            "inputs": {
-                                "body": "@body('Analyze_Layout')?['analyzeResult']",
-                                "headers": {
-                                    "ReadFileMetadataFromServer": true
-                                },
-                                "host": {
-                                    "connection": {
-                                        "name": "@parameters('$connections')['azureblob']['connectionId']"
-                                    }
-                                },
-                                "method": "post",
-                                "path": "/v2/datasets/@{encodeURIComponent(encodeURIComponent('AccountNameFromSettings'))}/files",
-                                "queries": {
-                                    "folderPath": "/exportedresults",
-                                    "name": "@{base64ToString(triggerOutputs()['headers']['x-ms-file-name-encoded'])}.json",
-                                    "queryParametersSingleEncoded": true
-                                }
-                            },
-                            "runtimeConfiguration": {
-                                "contentTransfer": {
-                                    "transferMode": "Chunked"
-                                }
-                            }
-                        }
-                    },
-                    "outputs": {}
-                },
-                "parameters": {
-                    "$connections": {
-                        "value": {
-                            "azureblob": {
-                                "connectionId": "[resourceId('Microsoft.Web/connections', parameters('connections_azureblob_name'))]",
-                                "connectionName": "azureblob",
-                                "id": "/subscriptions/c149b512-8770-43bb-9773-d871b33a8181/providers/Microsoft.Web/locations/eastus/managedApis/azureblob"
-                            },
-                            "formrecognizer": {
-                                "connectionId": "[resourceId('Microsoft.Web/connections', parameters('connections_formrecognizer_name'))]",
-                                "connectionName": "formrecognizer",
-                                "id": "/subscriptions/c149b512-8770-43bb-9773-d871b33a8181/providers/Microsoft.Web/locations/eastus/managedApis/formrecognizer"
-                            },
-                            "sharepointonline": {
-                                "connectionId": "[parameters('connections_sharepointonline_externalid')]",
-                                "connectionName": "sharepointonline",
-                                "id": "/subscriptions/c149b512-8770-43bb-9773-d871b33a8181/providers/Microsoft.Web/locations/eastus/managedApis/sharepointonline"
-                            }
-                        }
-                    }
                 }
             }
         },
