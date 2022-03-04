@@ -1,0 +1,3009 @@
+{
+	"status": "succeeded",
+	"createdDateTime": "2022-03-03T20:05:43Z",
+	"lastUpdatedDateTime": "2022-03-03T20:05:45Z",
+	"analyzeResult": {
+		"apiVersion": "2022-01-30-preview",
+		"modelId": "suncor-poc-extract-v1",
+		"stringIndexType": "textElements",
+		"content": "SERIAL_12942\nName: Extraction Lab File 10006\nDate: 2022-03-07\nStatus: Green\nColumn A\nColumn B\nColumn C\nColumn D\n063\nGreen\n°F\n645\n064\nYellow\n°F\n664\n065\nGreen\n°C\n634\n066\nRed\n°C\n665\n067\nRed\n°F\n623\n068\nYellow\n°F\n6122",
+		"pages": [
+			{
+				"pageNumber": 1,
+				"angle": 0,
+				"width": 8.5,
+				"height": 11,
+				"unit": "inch",
+				"words": [
+					{
+						"content": "SERIAL_12942",
+						"boundingBox": [
+							3.8144,
+							1.047,
+							4.6827,
+							1.047,
+							4.6827,
+							1.1724,
+							3.8144,
+							1.1724
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 0,
+							"length": 12
+						}
+					},
+					{
+						"content": "Name:",
+						"boundingBox": [
+							1.0132,
+							1.3599,
+							1.3999,
+							1.3599,
+							1.3999,
+							1.4582,
+							1.0132,
+							1.4582
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 13,
+							"length": 5
+						}
+					},
+					{
+						"content": "Extraction",
+						"boundingBox": [
+							1.4593,
+							1.3576,
+							2.0658,
+							1.3576,
+							2.0658,
+							1.4582,
+							1.4593,
+							1.4582
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 19,
+							"length": 10
+						}
+					},
+					{
+						"content": "Lab",
+						"boundingBox": [
+							2.124,
+							1.3527,
+							2.3216,
+							1.3527,
+							2.3216,
+							1.4582,
+							2.124,
+							1.4582
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 30,
+							"length": 3
+						}
+					},
+					{
+						"content": "File",
+						"boundingBox": [
+							2.3756,
+							1.3527,
+							2.572,
+							1.3527,
+							2.572,
+							1.4582,
+							2.3756,
+							1.4582
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 34,
+							"length": 4
+						}
+					},
+					{
+						"content": "10006",
+						"boundingBox": [
+							2.626,
+							1.3587,
+							2.9956,
+							1.3587,
+							2.9956,
+							1.4582,
+							2.626,
+							1.4582
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 39,
+							"length": 5
+						}
+					},
+					{
+						"content": "Date:",
+						"boundingBox": [
+							1.0132,
+							1.6734,
+							1.3249,
+							1.6734,
+							1.3249,
+							1.7715,
+							1.0132,
+							1.7715
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 45,
+							"length": 5
+						}
+					},
+					{
+						"content": "2022-03-07",
+						"boundingBox": [
+							1.3786,
+							1.672,
+							2.0775,
+							1.672,
+							2.0775,
+							1.7715,
+							1.3786,
+							1.7715
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 51,
+							"length": 10
+						}
+					},
+					{
+						"content": "Status:",
+						"boundingBox": [
+							1.0057,
+							1.9837,
+							1.4171,
+							1.9837,
+							1.4171,
+							2.0832,
+							1.0057,
+							2.0832
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 62,
+							"length": 7
+						}
+					},
+					{
+						"content": "Green",
+						"boundingBox": [
+							1.4703,
+							1.9837,
+							1.8345,
+							1.9837,
+							1.8345,
+							2.0832,
+							1.4703,
+							2.0832
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 70,
+							"length": 5
+						}
+					},
+					{
+						"content": "Column",
+						"boundingBox": [
+							1.0846,
+							2.6093,
+							1.5598,
+							2.6093,
+							1.5598,
+							2.7151,
+							1.0846,
+							2.7151
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 76,
+							"length": 6
+						}
+					},
+					{
+						"content": "A",
+						"boundingBox": [
+							1.6052,
+							2.6162,
+							1.6948,
+							2.6162,
+							1.6948,
+							2.7139,
+							1.6052,
+							2.7139
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 83,
+							"length": 1
+						}
+					},
+					{
+						"content": "Column",
+						"boundingBox": [
+							2.7083,
+							2.6093,
+							3.1835,
+							2.6093,
+							3.1835,
+							2.7151,
+							2.7083,
+							2.7151
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 85,
+							"length": 6
+						}
+					},
+					{
+						"content": "B",
+						"boundingBox": [
+							3.2361,
+							2.6167,
+							3.3062,
+							2.6167,
+							3.3062,
+							2.7136,
+							3.2361,
+							2.7136
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 92,
+							"length": 1
+						}
+					},
+					{
+						"content": "Column",
+						"boundingBox": [
+							4.3317,
+							2.6093,
+							4.8069,
+							2.6093,
+							4.8069,
+							2.7151,
+							4.3317,
+							2.7151
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 94,
+							"length": 6
+						}
+					},
+					{
+						"content": "C",
+						"boundingBox": [
+							4.8565,
+							2.6152,
+							4.9281,
+							2.6152,
+							4.9281,
+							2.715,
+							4.8565,
+							2.715
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 101,
+							"length": 1
+						}
+					},
+					{
+						"content": "Column",
+						"boundingBox": [
+							5.9553,
+							2.6093,
+							6.4305,
+							2.6093,
+							6.4305,
+							2.7151,
+							5.9553,
+							2.7151
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 103,
+							"length": 6
+						}
+					},
+					{
+						"content": "D",
+						"boundingBox": [
+							6.4847,
+							2.6167,
+							6.5652,
+							2.6167,
+							6.5652,
+							2.7136,
+							6.4847,
+							2.7136
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 110,
+							"length": 1
+						}
+					},
+					{
+						"content": "063",
+						"boundingBox": [
+							1.084,
+							2.8087,
+							1.3021,
+							2.8087,
+							1.3021,
+							2.9082,
+							1.084,
+							2.9082
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 112,
+							"length": 3
+						}
+					},
+					{
+						"content": "Green",
+						"boundingBox": [
+							2.7091,
+							2.8087,
+							3.0748,
+							2.8087,
+							3.0748,
+							2.9082,
+							2.7091,
+							2.9082
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 116,
+							"length": 5
+						}
+					},
+					{
+						"content": "°F",
+						"boundingBox": [
+							4.3257,
+							2.805,
+							4.4411,
+							2.805,
+							4.4411,
+							2.9073,
+							4.3257,
+							2.9073
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 122,
+							"length": 2
+						}
+					},
+					{
+						"content": "645",
+						"boundingBox": [
+							5.9573,
+							2.8087,
+							6.173,
+							2.8087,
+							6.173,
+							2.9082,
+							5.9573,
+							2.9082
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 125,
+							"length": 3
+						}
+					},
+					{
+						"content": "064",
+						"boundingBox": [
+							1.084,
+							3.002,
+							1.307,
+							3.002,
+							1.307,
+							3.1015,
+							1.084,
+							3.1015
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 129,
+							"length": 3
+						}
+					},
+					{
+						"content": "Yellow",
+						"boundingBox": [
+							2.7047,
+							2.996,
+							3.1096,
+							2.996,
+							3.1096,
+							3.1015,
+							2.7047,
+							3.1015
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 133,
+							"length": 6
+						}
+					},
+					{
+						"content": "°F",
+						"boundingBox": [
+							4.3257,
+							2.9983,
+							4.4411,
+							2.9983,
+							4.4411,
+							3.1006,
+							4.3257,
+							3.1006
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 140,
+							"length": 2
+						}
+					},
+					{
+						"content": "664",
+						"boundingBox": [
+							5.9573,
+							3.002,
+							6.1776,
+							3.002,
+							6.1776,
+							3.1015,
+							5.9573,
+							3.1015
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 143,
+							"length": 3
+						}
+					},
+					{
+						"content": "065",
+						"boundingBox": [
+							1.084,
+							3.1953,
+							1.3024,
+							3.1953,
+							1.3024,
+							3.2948,
+							1.084,
+							3.2948
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 147,
+							"length": 3
+						}
+					},
+					{
+						"content": "Green",
+						"boundingBox": [
+							2.7091,
+							3.1953,
+							3.0748,
+							3.1953,
+							3.0748,
+							3.2948,
+							2.7091,
+							3.2948
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 151,
+							"length": 5
+						}
+					},
+					{
+						"content": "°C",
+						"boundingBox": [
+							4.3257,
+							3.1916,
+							4.4549,
+							3.1916,
+							4.4549,
+							3.2947,
+							4.3257,
+							3.2947
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 157,
+							"length": 2
+						}
+					},
+					{
+						"content": "634",
+						"boundingBox": [
+							5.9573,
+							3.1953,
+							6.1776,
+							3.1953,
+							6.1776,
+							3.2948,
+							5.9573,
+							3.2948
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 160,
+							"length": 3
+						}
+					},
+					{
+						"content": "066",
+						"boundingBox": [
+							1.084,
+							3.3891,
+							1.3053,
+							3.3891,
+							1.3053,
+							3.4886,
+							1.084,
+							3.4886
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 164,
+							"length": 3
+						}
+					},
+					{
+						"content": "Red",
+						"boundingBox": [
+							2.7152,
+							3.3834,
+							2.9311,
+							3.3834,
+							2.9311,
+							3.4886,
+							2.7152,
+							3.4886
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 168,
+							"length": 3
+						}
+					},
+					{
+						"content": "°C",
+						"boundingBox": [
+							4.3257,
+							3.3854,
+							4.4549,
+							3.3854,
+							4.4549,
+							3.4884,
+							4.3257,
+							3.4884
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 172,
+							"length": 2
+						}
+					},
+					{
+						"content": "665",
+						"boundingBox": [
+							5.9573,
+							3.3891,
+							6.173,
+							3.3891,
+							6.173,
+							3.4886,
+							5.9573,
+							3.4886
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 175,
+							"length": 3
+						}
+					},
+					{
+						"content": "067",
+						"boundingBox": [
+							1.084,
+							3.5841,
+							1.3042,
+							3.5841,
+							1.3042,
+							3.6836,
+							1.084,
+							3.6836
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 179,
+							"length": 3
+						}
+					},
+					{
+						"content": "Red",
+						"boundingBox": [
+							2.7152,
+							3.5784,
+							2.9311,
+							3.5784,
+							2.9311,
+							3.6836,
+							2.7152,
+							3.6836
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 183,
+							"length": 3
+						}
+					},
+					{
+						"content": "°F",
+						"boundingBox": [
+							4.3257,
+							3.5804,
+							4.4411,
+							3.5804,
+							4.4411,
+							3.6827,
+							4.3257,
+							3.6827
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 187,
+							"length": 2
+						}
+					},
+					{
+						"content": "623",
+						"boundingBox": [
+							5.9573,
+							3.5841,
+							6.1727,
+							3.5841,
+							6.1727,
+							3.6836,
+							5.9573,
+							3.6836
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 190,
+							"length": 3
+						}
+					},
+					{
+						"content": "068",
+						"boundingBox": [
+							1.084,
+							3.7774,
+							1.3051,
+							3.7774,
+							1.3051,
+							3.8769,
+							1.084,
+							3.8769
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 194,
+							"length": 3
+						}
+					},
+					{
+						"content": "Yellow",
+						"boundingBox": [
+							2.7047,
+							3.7714,
+							3.1096,
+							3.7714,
+							3.1096,
+							3.8769,
+							2.7047,
+							3.8769
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 198,
+							"length": 6
+						}
+					},
+					{
+						"content": "°F",
+						"boundingBox": [
+							4.3257,
+							3.7737,
+							4.4411,
+							3.7737,
+							4.4411,
+							3.876,
+							4.3257,
+							3.876
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 205,
+							"length": 2
+						}
+					},
+					{
+						"content": "6122",
+						"boundingBox": [
+							5.9573,
+							3.7774,
+							6.2517,
+							3.7774,
+							6.2517,
+							3.8769,
+							5.9573,
+							3.8769
+						],
+						"confidence": 1,
+						"span": {
+							"offset": 208,
+							"length": 4
+						}
+					}
+				],
+				"selectionMarks": [],
+				"lines": [
+					{
+						"content": "SERIAL_12942",
+						"boundingBox": [
+							3.8144,
+							1.047,
+							4.6827,
+							1.047,
+							4.6827,
+							1.1724,
+							3.8144,
+							1.1724
+						],
+						"spans": [
+							{
+								"offset": 0,
+								"length": 12
+							}
+						]
+					},
+					{
+						"content": "Name: Extraction Lab File 10006",
+						"boundingBox": [
+							1.0132,
+							1.3527,
+							2.9956,
+							1.3527,
+							2.9956,
+							1.4582,
+							1.0132,
+							1.4582
+						],
+						"spans": [
+							{
+								"offset": 13,
+								"length": 31
+							}
+						]
+					},
+					{
+						"content": "Date: 2022-03-07",
+						"boundingBox": [
+							1.0132,
+							1.672,
+							2.0775,
+							1.672,
+							2.0775,
+							1.7715,
+							1.0132,
+							1.7715
+						],
+						"spans": [
+							{
+								"offset": 45,
+								"length": 16
+							}
+						]
+					},
+					{
+						"content": "Status: Green",
+						"boundingBox": [
+							1.0057,
+							1.9837,
+							1.8345,
+							1.9837,
+							1.8345,
+							2.0832,
+							1.0057,
+							2.0832
+						],
+						"spans": [
+							{
+								"offset": 62,
+								"length": 13
+							}
+						]
+					},
+					{
+						"content": "Column A",
+						"boundingBox": [
+							1.0846,
+							2.6093,
+							1.6948,
+							2.6093,
+							1.6948,
+							2.7151,
+							1.0846,
+							2.7151
+						],
+						"spans": [
+							{
+								"offset": 76,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "Column B",
+						"boundingBox": [
+							2.7083,
+							2.6093,
+							3.3062,
+							2.6093,
+							3.3062,
+							2.7151,
+							2.7083,
+							2.7151
+						],
+						"spans": [
+							{
+								"offset": 85,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "Column C",
+						"boundingBox": [
+							4.3317,
+							2.6093,
+							4.9281,
+							2.6093,
+							4.9281,
+							2.7151,
+							4.3317,
+							2.7151
+						],
+						"spans": [
+							{
+								"offset": 94,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "Column D",
+						"boundingBox": [
+							5.9553,
+							2.6093,
+							6.5652,
+							2.6093,
+							6.5652,
+							2.7151,
+							5.9553,
+							2.7151
+						],
+						"spans": [
+							{
+								"offset": 103,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "063",
+						"boundingBox": [
+							1.084,
+							2.8087,
+							1.3021,
+							2.8087,
+							1.3021,
+							2.9082,
+							1.084,
+							2.9082
+						],
+						"spans": [
+							{
+								"offset": 112,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "Green",
+						"boundingBox": [
+							2.7091,
+							2.8087,
+							3.0748,
+							2.8087,
+							3.0748,
+							2.9082,
+							2.7091,
+							2.9082
+						],
+						"spans": [
+							{
+								"offset": 116,
+								"length": 5
+							}
+						]
+					},
+					{
+						"content": "°F",
+						"boundingBox": [
+							4.3257,
+							2.805,
+							4.4411,
+							2.805,
+							4.4411,
+							2.9073,
+							4.3257,
+							2.9073
+						],
+						"spans": [
+							{
+								"offset": 122,
+								"length": 2
+							}
+						]
+					},
+					{
+						"content": "645",
+						"boundingBox": [
+							5.9573,
+							2.8087,
+							6.173,
+							2.8087,
+							6.173,
+							2.9082,
+							5.9573,
+							2.9082
+						],
+						"spans": [
+							{
+								"offset": 125,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "064",
+						"boundingBox": [
+							1.084,
+							3.002,
+							1.307,
+							3.002,
+							1.307,
+							3.1015,
+							1.084,
+							3.1015
+						],
+						"spans": [
+							{
+								"offset": 129,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "Yellow",
+						"boundingBox": [
+							2.7047,
+							2.996,
+							3.1096,
+							2.996,
+							3.1096,
+							3.1015,
+							2.7047,
+							3.1015
+						],
+						"spans": [
+							{
+								"offset": 133,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "°F",
+						"boundingBox": [
+							4.3257,
+							2.9983,
+							4.4411,
+							2.9983,
+							4.4411,
+							3.1006,
+							4.3257,
+							3.1006
+						],
+						"spans": [
+							{
+								"offset": 140,
+								"length": 2
+							}
+						]
+					},
+					{
+						"content": "664",
+						"boundingBox": [
+							5.9573,
+							3.002,
+							6.1776,
+							3.002,
+							6.1776,
+							3.1015,
+							5.9573,
+							3.1015
+						],
+						"spans": [
+							{
+								"offset": 143,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "065",
+						"boundingBox": [
+							1.084,
+							3.1953,
+							1.3024,
+							3.1953,
+							1.3024,
+							3.2948,
+							1.084,
+							3.2948
+						],
+						"spans": [
+							{
+								"offset": 147,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "Green",
+						"boundingBox": [
+							2.7091,
+							3.1953,
+							3.0748,
+							3.1953,
+							3.0748,
+							3.2948,
+							2.7091,
+							3.2948
+						],
+						"spans": [
+							{
+								"offset": 151,
+								"length": 5
+							}
+						]
+					},
+					{
+						"content": "°C",
+						"boundingBox": [
+							4.3257,
+							3.1916,
+							4.4549,
+							3.1916,
+							4.4549,
+							3.2947,
+							4.3257,
+							3.2947
+						],
+						"spans": [
+							{
+								"offset": 157,
+								"length": 2
+							}
+						]
+					},
+					{
+						"content": "634",
+						"boundingBox": [
+							5.9573,
+							3.1953,
+							6.1776,
+							3.1953,
+							6.1776,
+							3.2948,
+							5.9573,
+							3.2948
+						],
+						"spans": [
+							{
+								"offset": 160,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "066",
+						"boundingBox": [
+							1.084,
+							3.3891,
+							1.3053,
+							3.3891,
+							1.3053,
+							3.4886,
+							1.084,
+							3.4886
+						],
+						"spans": [
+							{
+								"offset": 164,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "Red",
+						"boundingBox": [
+							2.7152,
+							3.3834,
+							2.9311,
+							3.3834,
+							2.9311,
+							3.4886,
+							2.7152,
+							3.4886
+						],
+						"spans": [
+							{
+								"offset": 168,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "°C",
+						"boundingBox": [
+							4.3257,
+							3.3854,
+							4.4549,
+							3.3854,
+							4.4549,
+							3.4884,
+							4.3257,
+							3.4884
+						],
+						"spans": [
+							{
+								"offset": 172,
+								"length": 2
+							}
+						]
+					},
+					{
+						"content": "665",
+						"boundingBox": [
+							5.9573,
+							3.3891,
+							6.173,
+							3.3891,
+							6.173,
+							3.4886,
+							5.9573,
+							3.4886
+						],
+						"spans": [
+							{
+								"offset": 175,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "067",
+						"boundingBox": [
+							1.084,
+							3.5841,
+							1.3042,
+							3.5841,
+							1.3042,
+							3.6836,
+							1.084,
+							3.6836
+						],
+						"spans": [
+							{
+								"offset": 179,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "Red",
+						"boundingBox": [
+							2.7152,
+							3.5784,
+							2.9311,
+							3.5784,
+							2.9311,
+							3.6836,
+							2.7152,
+							3.6836
+						],
+						"spans": [
+							{
+								"offset": 183,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "°F",
+						"boundingBox": [
+							4.3257,
+							3.5804,
+							4.4411,
+							3.5804,
+							4.4411,
+							3.6827,
+							4.3257,
+							3.6827
+						],
+						"spans": [
+							{
+								"offset": 187,
+								"length": 2
+							}
+						]
+					},
+					{
+						"content": "623",
+						"boundingBox": [
+							5.9573,
+							3.5841,
+							6.1727,
+							3.5841,
+							6.1727,
+							3.6836,
+							5.9573,
+							3.6836
+						],
+						"spans": [
+							{
+								"offset": 190,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "068",
+						"boundingBox": [
+							1.084,
+							3.7774,
+							1.3051,
+							3.7774,
+							1.3051,
+							3.8769,
+							1.084,
+							3.8769
+						],
+						"spans": [
+							{
+								"offset": 194,
+								"length": 3
+							}
+						]
+					},
+					{
+						"content": "Yellow",
+						"boundingBox": [
+							2.7047,
+							3.7714,
+							3.1096,
+							3.7714,
+							3.1096,
+							3.8769,
+							2.7047,
+							3.8769
+						],
+						"spans": [
+							{
+								"offset": 198,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "°F",
+						"boundingBox": [
+							4.3257,
+							3.7737,
+							4.4411,
+							3.7737,
+							4.4411,
+							3.876,
+							4.3257,
+							3.876
+						],
+						"spans": [
+							{
+								"offset": 205,
+								"length": 2
+							}
+						]
+					},
+					{
+						"content": "6122",
+						"boundingBox": [
+							5.9573,
+							3.7774,
+							6.2517,
+							3.7774,
+							6.2517,
+							3.8769,
+							5.9573,
+							3.8769
+						],
+						"spans": [
+							{
+								"offset": 208,
+								"length": 4
+							}
+						]
+					}
+				],
+				"spans": [
+					{
+						"offset": 0,
+						"length": 212
+					}
+				]
+			}
+		],
+		"tables": [
+			{
+				"rowCount": 7,
+				"columnCount": 4,
+				"cells": [
+					{
+						"kind": "columnHeader",
+						"rowIndex": 0,
+						"columnIndex": 0,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "Column A",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									0.9976,
+									2.5565,
+									2.6248,
+									2.5565,
+									2.6248,
+									2.754,
+									0.9976,
+									2.754
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 76,
+								"length": 8
+							}
+						]
+					},
+					{
+						"kind": "columnHeader",
+						"rowIndex": 0,
+						"columnIndex": 1,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "Column B",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									2.6248,
+									2.5565,
+									4.2452,
+									2.5565,
+									4.2452,
+									2.754,
+									2.6248,
+									2.754
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 85,
+								"length": 8
+							}
+						]
+					},
+					{
+						"kind": "columnHeader",
+						"rowIndex": 0,
+						"columnIndex": 2,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "Column C",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									4.2452,
+									2.5565,
+									5.8724,
+									2.5631,
+									5.8724,
+									2.754,
+									4.2452,
+									2.754
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 94,
+								"length": 8
+							}
+						]
+					},
+					{
+						"kind": "columnHeader",
+						"rowIndex": 0,
+						"columnIndex": 3,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "Column D",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									5.8724,
+									2.5631,
+									7.4928,
+									2.5565,
+									7.4928,
+									2.754,
+									5.8724,
+									2.754
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 103,
+								"length": 8
+							}
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 0,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "063",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									0.9976,
+									2.754,
+									2.6248,
+									2.754,
+									2.6181,
+									2.9449,
+									0.9976,
+									2.9449
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 112,
+								"length": 3
+							}
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 1,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "Green",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									2.6248,
+									2.754,
+									4.2452,
+									2.754,
+									4.2452,
+									2.9449,
+									2.6181,
+									2.9449
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 116,
+								"length": 5
+							}
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 2,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "°F",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									4.2452,
+									2.754,
+									5.8724,
+									2.754,
+									5.8724,
+									2.9449,
+									4.2452,
+									2.9449
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 122,
+								"length": 2
+							}
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 3,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "645",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									5.8724,
+									2.754,
+									7.4928,
+									2.754,
+									7.4928,
+									2.9449,
+									5.8724,
+									2.9449
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 125,
+								"length": 3
+							}
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 0,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "064",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									0.9976,
+									2.9449,
+									2.6181,
+									2.9449,
+									2.6181,
+									3.1424,
+									0.9976,
+									3.1424
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 129,
+								"length": 3
+							}
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 1,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "Yellow",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									2.6181,
+									2.9449,
+									4.2452,
+									2.9449,
+									4.2452,
+									3.1424,
+									2.6181,
+									3.1424
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 133,
+								"length": 6
+							}
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 2,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "°F",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									4.2452,
+									2.9449,
+									5.8724,
+									2.9449,
+									5.8724,
+									3.1424,
+									4.2452,
+									3.1424
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 140,
+								"length": 2
+							}
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 3,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "664",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									5.8724,
+									2.9449,
+									7.4928,
+									2.9449,
+									7.4928,
+									3.1424,
+									5.8724,
+									3.1424
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 143,
+								"length": 3
+							}
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 0,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "065",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									0.9976,
+									3.1424,
+									2.6181,
+									3.1424,
+									2.6181,
+									3.3333,
+									0.9976,
+									3.3333
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 147,
+								"length": 3
+							}
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 1,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "Green",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									2.6181,
+									3.1424,
+									4.2452,
+									3.1424,
+									4.2452,
+									3.3333,
+									2.6181,
+									3.3333
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 151,
+								"length": 5
+							}
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 2,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "°C",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									4.2452,
+									3.1424,
+									5.8724,
+									3.1424,
+									5.8724,
+									3.3333,
+									4.2452,
+									3.3333
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 157,
+								"length": 2
+							}
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 3,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "634",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									5.8724,
+									3.1424,
+									7.4928,
+									3.1424,
+									7.4928,
+									3.3333,
+									5.8724,
+									3.3333
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 160,
+								"length": 3
+							}
+						]
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 0,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "066",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									0.9976,
+									3.3333,
+									2.6181,
+									3.3333,
+									2.6181,
+									3.5243,
+									0.9976,
+									3.5243
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 164,
+								"length": 3
+							}
+						]
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 1,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "Red",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									2.6181,
+									3.3333,
+									4.2452,
+									3.3333,
+									4.2452,
+									3.5308,
+									2.6181,
+									3.5243
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 168,
+								"length": 3
+							}
+						]
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 2,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "°C",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									4.2452,
+									3.3333,
+									5.8724,
+									3.3333,
+									5.8724,
+									3.5243,
+									4.2452,
+									3.5308
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 172,
+								"length": 2
+							}
+						]
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 3,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "665",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									5.8724,
+									3.3333,
+									7.4928,
+									3.3333,
+									7.4928,
+									3.5308,
+									5.8724,
+									3.5243
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 175,
+								"length": 3
+							}
+						]
+					},
+					{
+						"rowIndex": 5,
+						"columnIndex": 0,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "067",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									0.9976,
+									3.5243,
+									2.6181,
+									3.5243,
+									2.6114,
+									3.7218,
+									0.9976,
+									3.7218
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 179,
+								"length": 3
+							}
+						]
+					},
+					{
+						"rowIndex": 5,
+						"columnIndex": 1,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "Red",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									2.6181,
+									3.5243,
+									4.2452,
+									3.5308,
+									4.2452,
+									3.7218,
+									2.6114,
+									3.7218
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 183,
+								"length": 3
+							}
+						]
+					},
+					{
+						"rowIndex": 5,
+						"columnIndex": 2,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "°F",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									4.2452,
+									3.5308,
+									5.8724,
+									3.5243,
+									5.8724,
+									3.7218,
+									4.2452,
+									3.7218
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 187,
+								"length": 2
+							}
+						]
+					},
+					{
+						"rowIndex": 5,
+						"columnIndex": 3,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "623",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									5.8724,
+									3.5243,
+									7.4928,
+									3.5308,
+									7.4928,
+									3.7218,
+									5.8724,
+									3.7218
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 190,
+								"length": 3
+							}
+						]
+					},
+					{
+						"rowIndex": 6,
+						"columnIndex": 0,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "068",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									0.9976,
+									3.7218,
+									2.6114,
+									3.7218,
+									2.6114,
+									3.9127,
+									0.9909,
+									3.9127
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 194,
+								"length": 3
+							}
+						]
+					},
+					{
+						"rowIndex": 6,
+						"columnIndex": 1,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "Yellow",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									2.6114,
+									3.7218,
+									4.2452,
+									3.7218,
+									4.2386,
+									3.9127,
+									2.6114,
+									3.9127
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 198,
+								"length": 6
+							}
+						]
+					},
+					{
+						"rowIndex": 6,
+						"columnIndex": 2,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "°F",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									4.2452,
+									3.7218,
+									5.8724,
+									3.7218,
+									5.8724,
+									3.9127,
+									4.2386,
+									3.9127
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 205,
+								"length": 2
+							}
+						]
+					},
+					{
+						"rowIndex": 6,
+						"columnIndex": 3,
+						"rowSpan": 1,
+						"columnSpan": 1,
+						"content": "6122",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									5.8724,
+									3.7218,
+									7.4928,
+									3.7218,
+									7.4928,
+									3.9193,
+									5.8724,
+									3.9127
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 208,
+								"length": 4
+							}
+						]
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"boundingBox": [
+							0.9948,
+							2.5468,
+							7.4985,
+							2.5483,
+							7.4996,
+							3.9277,
+							0.9951,
+							3.926
+						]
+					}
+				],
+				"spans": [
+					{
+						"offset": 76,
+						"length": 136
+					}
+				]
+			}
+		],
+		"styles": [],
+		"documents": [
+			{
+				"docType": "suncor-poc-extract-v1:suncor-poc-extract-v1",
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"boundingBox": [
+							0,
+							0,
+							8.5,
+							0,
+							8.5,
+							11,
+							0,
+							11
+						]
+					}
+				],
+				"fields": {
+					"status": {
+						"type": "string",
+						"valueString": "Green",
+						"content": "Green",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									1.47,
+									1.985,
+									1.835,
+									1.985,
+									1.835,
+									2.085,
+									1.47,
+									2.085
+								]
+							}
+						],
+						"confidence": 0.95,
+						"spans": [
+							{
+								"offset": 70,
+								"length": 5
+							}
+						]
+					},
+					"date": {
+						"type": "string",
+						"valueString": "2022-03-07",
+						"content": "2022-03-07",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									1.3800000000000001,
+									1.67,
+									2.08,
+									1.67,
+									2.08,
+									1.77,
+									1.3800000000000001,
+									1.77
+								]
+							}
+						],
+						"confidence": 0.95,
+						"spans": [
+							{
+								"offset": 51,
+								"length": 10
+							}
+						]
+					},
+					"name": {
+						"type": "string",
+						"valueString": "Extraction Lab File 10006",
+						"content": "Extraction Lab File 10006",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									1.46,
+									1.355,
+									2.995,
+									1.355,
+									2.995,
+									1.46,
+									1.46,
+									1.46
+								]
+							}
+						],
+						"confidence": 0.95,
+						"spans": [
+							{
+								"offset": 19,
+								"length": 25
+							}
+						]
+					},
+					"file_type": {
+						"type": "string",
+						"valueString": "SERIAL_12942",
+						"content": "SERIAL_12942",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"boundingBox": [
+									3.815,
+									1.045,
+									4.6850000000000005,
+									1.045,
+									4.6850000000000005,
+									1.17,
+									3.815,
+									1.17
+								]
+							}
+						],
+						"confidence": 0.95,
+						"spans": [
+							{
+								"offset": 0,
+								"length": 12
+							}
+						]
+					},
+					"extracted_table": {
+						"type": "array",
+						"valueArray": [
+							{
+								"type": "object",
+								"valueObject": {
+									"Column A": {
+										"type": "string",
+										"valueString": "063",
+										"content": "063",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"boundingBox": [
+													1.085,
+													2.81,
+													1.3,
+													2.81,
+													1.3,
+													2.91,
+													1.085,
+													2.91
+												]
+											}
+										],
+										"spans": [
+											{
+												"offset": 112,
+												"length": 3
+											}
+										]
+									},
+									"Column B": {
+										"type": "string",
+										"valueString": "Green",
+										"content": "Green",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"boundingBox": [
+													2.71,
+													2.81,
+													3.075,
+													2.81,
+													3.075,
+													2.91,
+													2.71,
+													2.91
+												]
+											}
+										],
+										"spans": [
+											{
+												"offset": 116,
+												"length": 5
+											}
+										]
+									},
+									"Column C": {
+										"type": "string",
+										"valueString": "°F",
+										"content": "°F",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"boundingBox": [
+													4.325,
+													2.805,
+													4.44,
+													2.805,
+													4.44,
+													2.9050000000000002,
+													4.325,
+													2.9050000000000002
+												]
+											}
+										],
+										"spans": [
+											{
+												"offset": 122,
+												"length": 2
+											}
+										]
+									},
+									"Column D": {
+										"type": "string",
+										"valueString": "645",
+										"content": "645",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"boundingBox": [
+													5.955,
+													2.81,
+													6.175,
+													2.81,
+													6.175,
+													2.91,
+													5.955,
+													2.91
+												]
+											}
+										],
+										"spans": [
+											{
+												"offset": 125,
+												"length": 3
+											}
+										]
+									}
+								}
+							},
+							{
+								"type": "object",
+								"valueObject": {
+									"Column A": {
+										"type": "string",
+										"valueString": "064",
+										"content": "064",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"boundingBox": [
+													1.085,
+													3,
+													1.305,
+													3,
+													1.305,
+													3.1,
+													1.085,
+													3.1
+												]
+											}
+										],
+										"spans": [
+											{
+												"offset": 129,
+												"length": 3
+											}
+										]
+									},
+									"Column B": {
+										"type": "string",
+										"valueString": "Yellow",
+										"content": "Yellow",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"boundingBox": [
+													2.705,
+													2.995,
+													3.11,
+													2.995,
+													3.11,
+													3.1,
+													2.705,
+													3.1
+												]
+											}
+										],
+										"spans": [
+											{
+												"offset": 133,
+												"length": 6
+											}
+										]
+									},
+									"Column C": {
+										"type": "string",
+										"valueString": "°F",
+										"content": "°F",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"boundingBox": [
+													4.325,
+													3,
+													4.44,
+													3,
+													4.44,
+													3.1,
+													4.325,
+													3.1
+												]
+											}
+										],
+										"spans": [
+											{
+												"offset": 140,
+												"length": 2
+											}
+										]
+									},
+									"Column D": {
+										"type": "string",
+										"valueString": "664",
+										"content": "664",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"boundingBox": [
+													5.955,
+													3,
+													6.18,
+													3,
+													6.18,
+													3.1,
+													5.955,
+													3.1
+												]
+											}
+										],
+										"spans": [
+											{
+												"offset": 143,
+												"length": 3
+											}
+										]
+									}
+								}
+							},
+							{
+								"type": "object",
+								"valueObject": {
+									"Column A": {
+										"type": "string",
+										"valueString": "065",
+										"content": "065",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"boundingBox": [
+													1.085,
+													3.1950000000000003,
+													1.3,
+													3.1950000000000003,
+													1.3,
+													3.295,
+													1.085,
+													3.295
+												]
+											}
+										],
+										"spans": [
+											{
+												"offset": 147,
+												"length": 3
+											}
+										]
+									},
+									"Column B": {
+										"type": "string",
+										"valueString": "Green",
+										"content": "Green",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"boundingBox": [
+													2.71,
+													3.1950000000000003,
+													3.075,
+													3.1950000000000003,
+													3.075,
+													3.295,
+													2.71,
+													3.295
+												]
+											}
+										],
+										"spans": [
+											{
+												"offset": 151,
+												"length": 5
+											}
+										]
+									},
+									"Column C": {
+										"type": "string",
+										"valueString": "°C",
+										"content": "°C",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"boundingBox": [
+													4.325,
+													3.19,
+													4.455,
+													3.19,
+													4.455,
+													3.295,
+													4.325,
+													3.295
+												]
+											}
+										],
+										"spans": [
+											{
+												"offset": 157,
+												"length": 2
+											}
+										]
+									},
+									"Column D": {
+										"type": "string",
+										"valueString": "634",
+										"content": "634",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"boundingBox": [
+													5.955,
+													3.1950000000000003,
+													6.18,
+													3.1950000000000003,
+													6.18,
+													3.295,
+													5.955,
+													3.295
+												]
+											}
+										],
+										"spans": [
+											{
+												"offset": 160,
+												"length": 3
+											}
+										]
+									}
+								}
+							},
+							{
+								"type": "object",
+								"valueObject": {
+									"Column A": {
+										"type": "string",
+										"valueString": "066",
+										"content": "066",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"boundingBox": [
+													1.085,
+													3.39,
+													1.305,
+													3.39,
+													1.305,
+													3.49,
+													1.085,
+													3.49
+												]
+											}
+										],
+										"spans": [
+											{
+												"offset": 164,
+												"length": 3
+											}
+										]
+									},
+									"Column B": {
+										"type": "string",
+										"valueString": "Red",
+										"content": "Red",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"boundingBox": [
+													2.715,
+													3.3850000000000002,
+													2.93,
+													3.3850000000000002,
+													2.93,
+													3.49,
+													2.715,
+													3.49
+												]
+											}
+										],
+										"spans": [
+											{
+												"offset": 168,
+												"length": 3
+											}
+										]
+									},
+									"Column C": {
+										"type": "string",
+										"valueString": "°C",
+										"content": "°C",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"boundingBox": [
+													4.325,
+													3.3850000000000002,
+													4.455,
+													3.3850000000000002,
+													4.455,
+													3.49,
+													4.325,
+													3.49
+												]
+											}
+										],
+										"spans": [
+											{
+												"offset": 172,
+												"length": 2
+											}
+										]
+									},
+									"Column D": {
+										"type": "string",
+										"valueString": "665",
+										"content": "665",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"boundingBox": [
+													5.955,
+													3.39,
+													6.175,
+													3.39,
+													6.175,
+													3.49,
+													5.955,
+													3.49
+												]
+											}
+										],
+										"spans": [
+											{
+												"offset": 175,
+												"length": 3
+											}
+										]
+									}
+								}
+							},
+							{
+								"type": "object",
+								"valueObject": {
+									"Column A": {
+										"type": "string",
+										"valueString": "067",
+										"content": "067",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"boundingBox": [
+													1.085,
+													3.585,
+													1.305,
+													3.585,
+													1.305,
+													3.685,
+													1.085,
+													3.685
+												]
+											}
+										],
+										"spans": [
+											{
+												"offset": 179,
+												"length": 3
+											}
+										]
+									},
+									"Column B": {
+										"type": "string",
+										"valueString": "Red",
+										"content": "Red",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"boundingBox": [
+													2.715,
+													3.58,
+													2.93,
+													3.58,
+													2.93,
+													3.685,
+													2.715,
+													3.685
+												]
+											}
+										],
+										"spans": [
+											{
+												"offset": 183,
+												"length": 3
+											}
+										]
+									},
+									"Column C": {
+										"type": "string",
+										"valueString": "°F",
+										"content": "°F",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"boundingBox": [
+													4.325,
+													3.58,
+													4.44,
+													3.58,
+													4.44,
+													3.685,
+													4.325,
+													3.685
+												]
+											}
+										],
+										"spans": [
+											{
+												"offset": 187,
+												"length": 2
+											}
+										]
+									},
+									"Column D": {
+										"type": "string",
+										"valueString": "623",
+										"content": "623",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"boundingBox": [
+													5.955,
+													3.585,
+													6.175,
+													3.585,
+													6.175,
+													3.685,
+													5.955,
+													3.685
+												]
+											}
+										],
+										"spans": [
+											{
+												"offset": 190,
+												"length": 3
+											}
+										]
+									}
+								}
+							},
+							{
+								"type": "object",
+								"valueObject": {
+									"Column A": {
+										"type": "string",
+										"valueString": "068",
+										"content": "068",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"boundingBox": [
+													1.085,
+													3.775,
+													1.305,
+													3.775,
+													1.305,
+													3.875,
+													1.085,
+													3.875
+												]
+											}
+										],
+										"spans": [
+											{
+												"offset": 194,
+												"length": 3
+											}
+										]
+									},
+									"Column B": {
+										"type": "string",
+										"valueString": "Yellow",
+										"content": "Yellow",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"boundingBox": [
+													2.705,
+													3.77,
+													3.11,
+													3.77,
+													3.11,
+													3.875,
+													2.705,
+													3.875
+												]
+											}
+										],
+										"spans": [
+											{
+												"offset": 198,
+												"length": 6
+											}
+										]
+									},
+									"Column C": {
+										"type": "string",
+										"valueString": "°F",
+										"content": "°F",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"boundingBox": [
+													4.325,
+													3.775,
+													4.44,
+													3.775,
+													4.44,
+													3.875,
+													4.325,
+													3.875
+												]
+											}
+										],
+										"spans": [
+											{
+												"offset": 205,
+												"length": 2
+											}
+										]
+									},
+									"Column D": {
+										"type": "string",
+										"valueString": "6122",
+										"content": "6122",
+										"boundingRegions": [
+											{
+												"pageNumber": 1,
+												"boundingBox": [
+													5.955,
+													3.775,
+													6.25,
+													3.775,
+													6.25,
+													3.875,
+													5.955,
+													3.875
+												]
+											}
+										],
+										"spans": [
+											{
+												"offset": 208,
+												"length": 4
+											}
+										]
+									}
+								}
+							}
+						]
+					}
+				},
+				"confidence": 0.95,
+				"spans": [
+					{
+						"offset": 0,
+						"length": 212
+					}
+				]
+			}
+		]
+	}
+}
