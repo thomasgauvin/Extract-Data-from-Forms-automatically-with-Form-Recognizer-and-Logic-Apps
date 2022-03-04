@@ -16,7 +16,7 @@ This project demonstrates how to create a process that automatically extracts in
 1. **Create Sharepoint Site**
 2. **Deploy Azure Resources**
 
-    Option 1: 
+    Option 1: (note that you may have to configure the Form Recognizer resource according to the [steps documented in the Microsoft Docs](https://docs.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/quickstarts/try-sample-label-tool) to get access to the [FOTT tool](https://fott-2-1.azurewebsites.net/) to create a custom model
 
     [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fthomasgauvin%2FExtract-Data-from-Forms-automatically-with-Logic-Apps-and-Form-Recognizer%2Fmaster%2FARM%2520Template%2Ftemplate.json)
 
