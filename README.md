@@ -10,7 +10,7 @@ This project demonstrates how to create a process that automatically extracts in
 2. The Logic App will call Form Recognizer to analyze the form (in this case, using a [custom model of  Azure Form Recognizer](https://docs.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/concept-custom)). The same can be done with the default Layout or Document APIs from Form Recognizer.
 3. The Logic App will store the results of the Form Recognizer in Blob storage, where they can be used by another application or process.
 
-** NOTE: The Azure Logic App Form Recognizer connector is compatible with Form Recognizer V2.0 (custom models built with the FOTT tool), not with the newer Form Recognizer V3.0 resource. Ensure you are training your custom models with the FOTT tool. **
+**NOTE: The Azure Logic App Form Recognizer connector is compatible with Form Recognizer V2.0 (custom models built with the FOTT tool), not with the newer Form Recognizer V3.0 resource. Ensure you are training your custom models with the FOTT tool.**
 
 ## Get Started
 
